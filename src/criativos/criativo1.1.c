@@ -20,6 +20,11 @@ int main( void ) {
      *     - entrada de dados;
      *     - processamentos adicionais.
      ----------------------------------------------------*/
+     int x, y;
+    printf("Valor de x: ");
+    scanf("%d", &x);
+    printf("Valor de y: ");
+    scanf("%d", &y);
     
     
     // ativa a suavização (antialiasing)
@@ -43,7 +48,7 @@ int main( void ) {
         /*----------------------------------------------------------------------
          * A lógica do seu desenho deve vir aqui.
          ---------------------------------------------------------------------*/
-
+        DrawPixel( x, y, BLACK );
 
 
         /*----------------------------------------------------------------------

@@ -20,7 +20,16 @@ int main( void ) {
      *     - entrada de dados;
      *     - processamentos adicionais.
      ----------------------------------------------------*/
-    
+    int x0, x;
+    int y0, y;
+    printf("x inicial: ");
+    scanf("%d", &x0);
+    printf("y inicial: ");
+    scanf("%d", &y0);
+    printf("x final: ");
+    scanf("%d", &x);
+    printf("y final: ");
+    scanf("%d", &y);
     
     // ativa a suavização (antialiasing)
     SetConfigFlags( FLAG_MSAA_4X_HINT );
@@ -43,7 +52,7 @@ int main( void ) {
         /*----------------------------------------------------------------------
          * A lógica do seu desenho deve vir aqui.
          ---------------------------------------------------------------------*/
-
+        DrawLine( x0, y0, x, y,  BLACK);
 
 
         /*----------------------------------------------------------------------
