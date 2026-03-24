@@ -1,16 +1,17 @@
-/**
- * @file ex1.12.c
- * @author Seu nome
- * @brief Arquivo de código fonte da solução do Exercício 1.12.
- * 
- * @copyright Copyright (c) 20__
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
-int main( void ) {
+int main(void) {
 
-    return 0;
+    float Numero;
+    printf("Informe um valor: ");
+    scanf("%f", &Numero);
+    printf("%f\n", Numero);
+    printf("%.2f\n", Numero);
+    printf("%.3f", Numero);
+    return 0; 
+
+
+
 
 }

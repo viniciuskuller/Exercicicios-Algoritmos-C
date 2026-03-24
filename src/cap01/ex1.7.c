@@ -1,16 +1,16 @@
-/**
- * @file ex1.7.c
- * @author Seu nome
- * @brief Arquivo de código fonte da solução do Exercício 1.7.
- * 
- * @copyright Copyright (c) 20__
- */
-
 #include <stdio.h>
-#include <stdlib.h>
+#include <STdlib.h>
 
-int main( void ) {
-
+int main(void) {
+    int Lado;
+    int Area;
+    int Perimetro;
+    printf("Informe o lado: ");
+    scanf("%d", &Lado);
+    // Operações
+    Area = Lado * Lado;
+    Perimetro = Lado * 4;
+    printf("\nPerimetro = %d", Perimetro);
+    printf("\nArea = %d", Area);
     return 0;
-
 }

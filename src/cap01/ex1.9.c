@@ -1,16 +1,17 @@
-/**
- * @file ex1.9.c
- * @author Seu nome
- * @brief Arquivo de código fonte da solução do Exercício 1.9.
- * 
- * @copyright Copyright (c) 20__
- */
-
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
 
-int main( void ) {
+int main(void) {
 
-    return 0;
+    int Base;
+    int Altura;
+    printf("Valor da Base: ");
+    scanf("%d", &Base);
+    printf("Valor da Altura: ");
+    scanf("%d", &Altura);
+    int Area;
+    Area = ( Base * Altura)/2;
+    printf("Area = %d", Area);
+    return 0; 
 
 }

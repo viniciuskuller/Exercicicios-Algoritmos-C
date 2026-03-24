@@ -1,16 +1,8 @@
-/**
- * @file ex1.1.c
- * @author Seu nome
- * @brief Arquivo de código fonte da solução do Exercício 1.1.
- * 
- * @copyright Copyright (c) 20__
- */
+#include <stdio.h>                //Diretiva de pré-processamento
+#include <stdlib.h>               //Diretiva de pré-processamento
 
-#include <stdio.h>
-#include <stdlib.h>
+int main(void) {
 
-int main( void ) {
-
+    printf( "Ola Mundo!" ); 
     return 0;
-
 }

@@ -1,16 +1,21 @@
-/**
- * @file ex1.24.c
- * @author Seu nome
- * @brief Arquivo de código fonte da solução do Exercício 1.24.
- * 
- * @copyright Copyright (c) 20__
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
-int main( void ) {
+int main(void){
 
+    float ValorHora;
+    float Horas;
+    float DescontoINSS;
+    
+    printf("Valor por Hora: ");
+    scanf("%f", &ValorHora);
+    printf("Horas Semanais: ");
+    scanf("%f", &Horas);
+    printf("Valor de desconto do INSS: ");
+    scanf("%f", &DescontoINSS);
+    float SalarioLiquido;
+    SalarioLiquido = ValorHora * Horas * (1- DescontoINSS/100);
+    printf("Salario Liquido: %.2f", SalarioLiquido);
     return 0;
 
 }

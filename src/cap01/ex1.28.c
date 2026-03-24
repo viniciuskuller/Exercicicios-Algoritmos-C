@@ -1,16 +1,24 @@
-/**
- * @file ex1.28.c
- * @author Seu nome
- * @brief Arquivo de código fonte da solução do Exercício 1.28.
- * 
- * @copyright Copyright (c) 20__
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
-int main( void ) {
+int main(void) {
 
+    int SegundosBrutos;
+    printf("Quantidade de segundos: ");
+    scanf("%d", &SegundosBrutos);
+
+    int Horas;
+    int Minutos;
+    int Segundos;
+    int Resto;
+    Horas = SegundosBrutos / 3600;
+    Resto = SegundosBrutos % 3600;
+    Minutos = Resto /60;
+    Segundos = Resto % 60 ;
+    printf("%d segundo(s) correspondem a %d hora(s), %d minuto(s) e %d segundos(s)", SegundosBrutos, Horas, Minutos, Segundos);
     return 0;
+    
+
 
 }
+
