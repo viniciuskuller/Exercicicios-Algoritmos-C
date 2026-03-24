@@ -20,13 +20,22 @@ int main( void ) {
      *     - entrada de dados;
      *     - processamentos adicionais.
      ----------------------------------------------------*/
-    
-    
+    int x, y;
+    int w, h;       //Largura, altura
+    printf("x: ");
+    scanf("%d", &x);
+    printf("y: ");
+    scanf("%d", &y); 
+    printf("largura: ");
+    scanf("%d", &w);
+    printf("altura: ");
+    scanf("%d", &h),   
+
     // ativa a suavização (antialiasing)
     SetConfigFlags( FLAG_MSAA_4X_HINT );
 
     // cria uma janela de 800 pixels de largura por 600 de altura
-    InitWindow( 800, 600, "Exercício Criativo 1.4" );
+    InitWindow( 600, 400, "Exercício Criativo 1.4" );
 
     // configura a quantidade de quatros por segundo da engine
     SetTargetFPS( 60 );    
@@ -43,9 +52,8 @@ int main( void ) {
         /*----------------------------------------------------------------------
          * A lógica do seu desenho deve vir aqui.
          ---------------------------------------------------------------------*/
-
-
-
+        DrawRectangleLines(x, y, w , h,  BLACK);
+       
         /*----------------------------------------------------------------------
          * A lógica do seu desenho deve terminar na linha acima.
          ---------------------------------------------------------------------*/

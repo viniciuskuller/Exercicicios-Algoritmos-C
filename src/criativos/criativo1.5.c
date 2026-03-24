@@ -20,7 +20,17 @@ int main( void ) {
      *     - entrada de dados;
      *     - processamentos adicionais.
      ----------------------------------------------------*/
-    
+    int x, y;
+    int w, h;       
+    printf("x: ");
+    scanf("%d", &x);
+    printf("y: ");
+    scanf("%d", &y); 
+    printf("largura: ");
+    scanf("%d", &w);
+    printf("altura: ");
+    scanf("%d", &h),   
+
     
     // ativa a suavização (antialiasing)
     SetConfigFlags( FLAG_MSAA_4X_HINT );
@@ -43,7 +53,7 @@ int main( void ) {
         /*----------------------------------------------------------------------
          * A lógica do seu desenho deve vir aqui.
          ---------------------------------------------------------------------*/
-
+        DrawRectangle(x, y, w , h, BLACK);
 
 
         /*----------------------------------------------------------------------

@@ -20,7 +20,14 @@ int main( void ) {
      *     - entrada de dados;
      *     - processamentos adicionais.
      ----------------------------------------------------*/
-    
+    int x, y;
+    int r;
+    printf("x centro: ");
+    scanf("%d", &x);
+    printf("y centro: ");
+    scanf("%d", &y);
+    printf("raio: ");
+    scanf("%d", &r);
     
     // ativa a suavização (antialiasing)
     SetConfigFlags( FLAG_MSAA_4X_HINT );
@@ -43,7 +50,7 @@ int main( void ) {
         /*----------------------------------------------------------------------
          * A lógica do seu desenho deve vir aqui.
          ---------------------------------------------------------------------*/
-
+        DrawCircle(x, y, r, BLACK);
 
 
         /*----------------------------------------------------------------------

@@ -20,13 +20,24 @@ int main( void ) {
      *     - entrada de dados;
      *     - processamentos adicionais.
      ----------------------------------------------------*/
+     int x, y;
+     int rH, rV;        //Raios orizontais e vericais
+     printf("x do centro: ");
+     scanf("%d", &x);
+     printf("y do centro: ");
+     scanf("%d", &y);
+     printf("raio horizontal: ");
+     scanf("%d", &rH);
+     printf("raio vertical: ");
+     scanf("%d", &rV);
+
     
     
     // ativa a suavização (antialiasing)
     SetConfigFlags( FLAG_MSAA_4X_HINT );
 
     // cria uma janela de 800 pixels de largura por 600 de altura
-    InitWindow( 800, 600, "Exercício Criativo 1.8" );
+    InitWindow( 600, 400, "Exercício Criativo 1.8" );
 
     // configura a quantidade de quatros por segundo da engine
     SetTargetFPS( 60 );    
@@ -43,7 +54,7 @@ int main( void ) {
         /*----------------------------------------------------------------------
          * A lógica do seu desenho deve vir aqui.
          ---------------------------------------------------------------------*/
-
+        DrawEllipseLines( x, y, rH, rV, BLACK);
 
 
         /*----------------------------------------------------------------------

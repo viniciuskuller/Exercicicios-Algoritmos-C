@@ -20,6 +20,17 @@ int main( void ) {
      *     - entrada de dados;
      *     - processamentos adicionais.
      ----------------------------------------------------*/
+    int x, y;
+    int rH, rV;        
+     printf("x do centro: ");
+     scanf("%d", &x);
+     printf("y do centro: ");
+     scanf("%d", &y);
+     printf("raio horizontal: ");
+     scanf("%d", &rH);
+     printf("raio vertical: ");
+     scanf("%d", &rV);        
+
     
     
     // ativa a suavização (antialiasing)
@@ -43,9 +54,7 @@ int main( void ) {
         /*----------------------------------------------------------------------
          * A lógica do seu desenho deve vir aqui.
          ---------------------------------------------------------------------*/
-
-
-
+         DrawEllipse(x, y, rH, rV, BLACK);         
         /*----------------------------------------------------------------------
          * A lógica do seu desenho deve terminar na linha acima.
          ---------------------------------------------------------------------*/
