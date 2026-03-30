@@ -1,6 +1,6 @@
 /**
  * @file criativo1.6.c
- * @author Seu nome
+ * @author Vinícius Faustino
  * @brief Arquivo de código fonte da solução do Exercício Criativo 1.6.
  * 
  * @copyright Copyright (c) 20__

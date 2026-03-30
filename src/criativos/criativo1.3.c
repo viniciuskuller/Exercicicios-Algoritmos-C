@@ -1,6 +1,6 @@
 /**
  * @file criativo1.3.c
- * @author Viníicus Faustino
+ * @author Vinícius Faustino
  * @brief Arquivo de código fonte da solução do Exercício Criativo 1.3.
  * 
  * @copyright Copyright (c) 20__

@@ -1,6 +1,6 @@
 /**
  * @file criativo1.9.c
- * @author Seu nome
+ * @author Vinícius Faustino
  * @brief Arquivo de código fonte da solução do Exercício Criativo 1.9.
  * 
  * @copyright Copyright (c) 20__
