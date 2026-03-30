@@ -37,7 +37,7 @@ int main( void ) {
     SetConfigFlags( FLAG_MSAA_4X_HINT );
 
     // cria uma janela de 800 pixels de largura por 600 de altura
-    InitWindow( 800, 600, "Exercício Criativo 1.9" );
+    InitWindow( 600, 400, "Exercício Criativo 1.9" );
 
     // configura a quantidade de quatros por segundo da engine
     SetTargetFPS( 60 );    
