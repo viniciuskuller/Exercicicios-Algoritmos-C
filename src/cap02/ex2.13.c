@@ -17,16 +17,16 @@ int main( void ) {
     scanf("%f", &Nota1);
     printf("Nota Av. 2: ");
     scanf("%f", &Nota2);
-    printf("Nota Optativa: ");
+    printf("Nota Optativa:");
     scanf("%f", &NotaOpt);
 
     if(NotaOpt > Nota1 || NotaOpt > Nota2){
-        if (Nota1 > Nota2) Nota1  = NotaOpt;
-        else Nota2 = NotaOpt;
+        if (Nota1 > Nota2) Nota2  = NotaOpt;
+        else Nota1 = NotaOpt;
     }
     Media = (Nota1 + Nota2) / 2 ;
 
-    printf("Media : %.2f\n", Media);
+    printf(" Media: %.2f\n", Media);
 
     if(Media >= 6){
         printf("Aprovado!");

@@ -36,7 +36,7 @@ int main( void ) {
         } else Soma = SegundoNumero + TerceiroNumero;
     }
     
-    printf("A soma dos dois maiores numeros e %.2f", Soma); 
+    printf("A soma dos dois numeros maiores fornecidos e %.2f", Soma); 
 
     return 0;
 

@@ -11,13 +11,13 @@
 
 int main( void ) {
      
-    int a, b , c, Modulo, LadosIguais;
+    float a, b , c, Modulo;
     printf("a: ");
-    scanf("%d", &a);
+    scanf("%f", &a);
     printf("b: ");
-    scanf("%d", &b);
+    scanf("%f", &b);
     printf("c: ");
-    scanf("%d", &c);
+    scanf("%f", &c);
 
     if (a - b >= 0){
     Modulo = a - b;
@@ -25,18 +25,18 @@ int main( void ) {
         Modulo = (a - b) * -1;
     }
     
-    if (Modulo < c && c < a + b ||
-         Modulo < b && b < a + c ||
+    if (Modulo < c && c < a + b &&
+         Modulo < b && b < a + c &&
          Modulo < a  && a < b + c) {
-        printf("triangulo ");
+        printf("Triangulo ");
+        
         if(a == b && b == c) {
-            LadosIguais = 3;
             printf("EQUILATERO");
         }
-        if( (a  == b || a == c || b == c) && LadosIguais != 3){
-            printf("ISOCELES");
+        else if( (a  == b || a == c || b == c) ){
+            printf("ISOSCELES");
         } 
-        if( a =! b && a != c && b != c){
+         else {
             printf("ESCALENO");
         }     
     } else  {

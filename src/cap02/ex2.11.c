@@ -23,9 +23,9 @@ int main( void ) {
         
         printf("Triangulo ");
         if(alfa >90 || beta > 90 || gama > 90 ) {
-            printf("OBTUSO");
+            printf("OBTUSANGULO");
         }else if ( alfa == 90 || beta == 90 || gama == 90) {
-            printf("RETO");
+            printf("RETANGULO");
         }else{
             printf("ACUTANGULO");
         }
