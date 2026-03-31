@@ -1,6 +1,6 @@
 /**
  * @file ex2.17.c
- * @author Seu nome
+ * @author Vinícius Faustino
  * @brief Arquivo de código fonte da solução do Exercício 2.17.
  * 
  * @copyright Copyright (c) 20__

@@ -11,6 +11,17 @@
 
 int main( void ) {
 
+    int Numero;
+
+    printf("Entre com um numero: ");
+    scanf("%d", &Numero);
+
+    if ( Numero % 2 == 0) {
+        printf("O numero %d e par.", Numero);
+    }
+    else {
+        printf("O numero %d e impar.",Numero);
+    }
     return 0;
 
 }

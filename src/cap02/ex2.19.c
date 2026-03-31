@@ -1,6 +1,6 @@
 /**
  * @file ex2.19.c
- * @author Seu nome
+ * @author Vinícius Faustino
  * @brief Arquivo de código fonte da solução do Exercício 2.19.
  * 
  * @copyright Copyright (c) 20__
