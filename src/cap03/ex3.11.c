@@ -10,7 +10,23 @@
 #include <stdlib.h>
 
 int main( void ) {
+    
+    int N1, N2, temp;
+    printf("N1: ");
+    scanf("%d", &N1);
+    printf("N2: ");
+    scanf("%d", &N2);
 
+    if( N2 > N1){
+          for ( int i = N1 ; i <= N2; i ++ ){
+            printf("%d ", i);
+        }   
+    }   else{
+        for( int i = N1; i >= N2; i--){
+            printf("%d ", i);
+        }
+
+    }
     return 0;
 
 }

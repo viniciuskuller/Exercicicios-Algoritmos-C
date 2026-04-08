@@ -10,7 +10,22 @@
 #include <stdlib.h>
 
 int main( void ) {
+    int a = 1;
+    int b = 1;
+    int Termo;
+    printf("Termo desejado: ");
+    scanf("%d", &Termo);
 
-    return 0;
+
+    for(int i = 0; i < Termo; i++){
+      
+        b = b + a;       
+        a = b - a;
+
+    }
+      printf("Fibonacci de %d e %d", Termo, a);
+
+   
+   return 0;
 
 }

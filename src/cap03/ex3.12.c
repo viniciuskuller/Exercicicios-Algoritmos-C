@@ -10,7 +10,23 @@
 #include <stdlib.h>
 
 int main( void ) {
-
-    return 0;
+    int N1, N2, temp;
+    printf("N1: ");
+    scanf("%d", &N1);
+    printf("N2: ");
+    scanf("%d", &N2);
+    if (N1 > N2){
+        temp = N1;
+        N1 = N2;
+        N2 = temp;
+    }
+    int Pares = 0;
+    for (int i = N1; i <= N2; i++ ){
+        
+        if ( i % 2 == 0)
+             Pares ++;
+    }
+    printf("Numeros pares entre %d e %d: %d", N1, N2, Pares);
+   return 0;
 
 }

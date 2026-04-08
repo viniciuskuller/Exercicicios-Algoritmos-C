@@ -9,7 +9,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main( void ) {
+int main( void ) {   
+    for(int i = 15; i <= 30; i++){
+        int j = i*i;
+        printf("%d ", j);
+    }
 
     return 0;
 

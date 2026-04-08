@@ -10,7 +10,52 @@
 #include <stdlib.h>
 
 int main( void ) {
+    for(int i = 0; i < 5; i++){
+        for(int j = 0; j <= i; j++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    
+    printf("\n");
+    
+ 
+     for(int i = 5; i > 0; i--){
+        for(int j = 0; j < i; j++){
+            printf("*");
+        }
+    printf("\n");
+    }
+    
+    printf("\n");
 
+    for (int i = 0; i < 5; i++) {        
+        for (int j = 0; j < 5; j++) {    
+            
+            if (i + j < 4) {
+                printf(" ");
+            } else {
+                printf("*");
+            }
+
+        }
+        printf("\n");
+    }
+      
+    printf("\n");
+
+    for (int i = 0; i < 5; i++) {        
+        for (int j = 0; j < 5; j++) {    
+            
+            if (i - j > 0) {
+                printf(" ");
+            } else {
+                printf("*");
+            }
+
+        }
+        printf("\n");
+    }
     return 0;
 
 }
