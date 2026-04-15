@@ -19,7 +19,7 @@ int main( void ) {
         scanf("%f",&Nota );
         Soma += Nota;
     }
-    Media = Soma / i;
+    Media = Soma / 10;
     printf("A media aritmetica das dez notas e: %.2f", Media);
     return 0;
 
